@@ -4,8 +4,10 @@
   "description": "",
   "main": "dist/flyball.js",
   "scripts": {
-    "dev": "parcel example/index.html -d build",
-    "build": "rollup -c --environment BUILD"
+    "dev": "parcel watch example/index.html -d build",
+    "build": "rollup -c --environment BUILD",
+    "build:example": "parcel build example/index.html -d build --public-url https://limichange.github.io/flyball/",
+    "deploy:example": "npm run build:example && gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,7 @@
   "homepage": "https://github.com/limichange/flyball#readme",
   "devDependencies": {
     "create-rollup-lib-config": "0.0.7-beta.2",
+    "gh-pages": "^1.1.0",
     "parcel-bundler": "^1.6.2",
     "rollup": "^0.56.5"
   }
