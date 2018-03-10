@@ -2,7 +2,7 @@
   "name": "flyball",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "dist/flyball.js",
   "scripts": {
     "dev": "parcel example/index.html -d build",
     "build": "rollup -c --environment BUILD"
