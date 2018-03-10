@@ -1,0 +1,29 @@
+{
+  "name": "flyball",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel example/index.html -d build",
+    "build": "rollup -c --environment BUILD"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/limichange/flyball.git"
+  },
+  "keywords": [
+    "css",
+    "js"
+  ],
+  "author": "limichange",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/limichange/flyball/issues"
+  },
+  "homepage": "https://github.com/limichange/flyball#readme",
+  "devDependencies": {
+    "create-rollup-lib-config": "0.0.7-beta.2",
+    "parcel-bundler": "^1.6.2",
+    "rollup": "^0.56.5"
+  }
+}
