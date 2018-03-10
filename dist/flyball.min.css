@@ -1,0 +1,1 @@
+.flyball{position:fixed;top:0;left:0;transition:transform .8s linear}.flyball .inner{position:absolute;top:0;left:0;background-color:green;border-radius:50%}.flyball,.flyball .inner{will-change:transform;transform:translateZ(0)}.flyball .inner{transition:transform .8s cubic-bezier(.3,-.2,.8,0)}
